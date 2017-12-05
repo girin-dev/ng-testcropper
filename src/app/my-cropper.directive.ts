@@ -1,4 +1,4 @@
-import { Directive } from '@angular/core';
+import { Directive, Input, ElementRef } from '@angular/core';
 import * as Cropper from 'cropperjs';
 
 @Directive({
