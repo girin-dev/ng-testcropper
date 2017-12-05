@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MyCropperDirective } from './my-cropper.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyCropperDirective
   ],
   imports: [
     BrowserModule
